@@ -11,6 +11,39 @@
 		6F3A85CD2A403E4A00C02867 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3A85CC2A403E4A00C02867 /* ContentView.swift */; };
 		6F3A85CF2A403E4B00C02867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F3A85CE2A403E4B00C02867 /* Assets.xcassets */; };
 		6F3A85D22A403E4B00C02867 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F3A85D12A403E4B00C02867 /* Preview Assets.xcassets */; };
+		6FBEDA6D2A4042DA00E95331 /* TabBarHelperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEDA6C2A4042DA00E95331 /* TabBarHelperView.swift */; };
+		6FBEDA842A4064AF00E95331 /* Figtree-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA712A4064AF00E95331 /* Figtree-VariableFont_wght.ttf */; };
+		6FBEDA852A4064AF00E95331 /* Figtree-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA732A4064AF00E95331 /* Figtree-ExtraBold.ttf */; };
+		6FBEDA862A4064AF00E95331 /* Figtree-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA742A4064AF00E95331 /* Figtree-Bold.ttf */; };
+		6FBEDA872A4064AF00E95331 /* Figtree-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA752A4064AF00E95331 /* Figtree-SemiBoldItalic.ttf */; };
+		6FBEDA882A4064AF00E95331 /* Figtree-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA762A4064AF00E95331 /* Figtree-Light.ttf */; };
+		6FBEDA892A4064AF00E95331 /* Figtree-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA772A4064AF00E95331 /* Figtree-MediumItalic.ttf */; };
+		6FBEDA8A2A4064AF00E95331 /* Figtree-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA782A4064AF00E95331 /* Figtree-ExtraBoldItalic.ttf */; };
+		6FBEDA8B2A4064AF00E95331 /* Figtree-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA792A4064AF00E95331 /* Figtree-Medium.ttf */; };
+		6FBEDA8C2A4064AF00E95331 /* Figtree-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA7A2A4064AF00E95331 /* Figtree-Regular.ttf */; };
+		6FBEDA8D2A4064AF00E95331 /* Figtree-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA7B2A4064AF00E95331 /* Figtree-BlackItalic.ttf */; };
+		6FBEDA8E2A4064AF00E95331 /* Figtree-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA7C2A4064AF00E95331 /* Figtree-BoldItalic.ttf */; };
+		6FBEDA8F2A4064AF00E95331 /* Figtree-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA7D2A4064AF00E95331 /* Figtree-Italic.ttf */; };
+		6FBEDA902A4064AF00E95331 /* Figtree-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA7E2A4064AF00E95331 /* Figtree-Black.ttf */; };
+		6FBEDA912A4064AF00E95331 /* Figtree-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA7F2A4064AF00E95331 /* Figtree-LightItalic.ttf */; };
+		6FBEDA922A4064AF00E95331 /* Figtree-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA802A4064AF00E95331 /* Figtree-SemiBold.ttf */; };
+		6FBEDA932A4064AF00E95331 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA812A4064AF00E95331 /* OFL.txt */; };
+		6FBEDA942A4064AF00E95331 /* Figtree-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA822A4064AF00E95331 /* Figtree-Italic-VariableFont_wght.ttf */; };
+		6FBEDA952A4064AF00E95331 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA832A4064AF00E95331 /* README.txt */; };
+		6FBEDA972A4064E500E95331 /* Font+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEDA962A4064E500E95331 /* Font+.swift */; };
+		6FBEDA9B2A406E1B00E95331 /* LinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEDA9A2A406E1B00E95331 /* LinksView.swift */; };
+		6FBEDA9E2A406E5B00E95331 /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEDA9D2A406E5B00E95331 /* CoursesView.swift */; };
+		6FBEDAA02A406E6600E95331 /* CampaignsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEDA9F2A406E6600E95331 /* CampaignsView.swift */; };
+		6FBEDAA22A406E7000E95331 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEDAA12A406E7000E95331 /* ProfileView.swift */; };
+		6FBEDAA42A406F9B00E95331 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEDAA32A406F9B00E95331 /* Color+.swift */; };
+		6FBEDAA82A407E3800E95331 /* StretchableRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEDAA72A407E3800E95331 /* StretchableRect.swift */; };
+		6FBEDAAB2A408F3E00E95331 /* RectangleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEDAAA2A408F3E00E95331 /* RectangleButtonView.swift */; };
+		6FBEDAB02A40935900E95331 /* LinkCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEDAAF2A40935900E95331 /* LinkCardView.swift */; };
+		6FBEDAB22A409F2200E95331 /* LinksDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEDAB12A409F2200E95331 /* LinksDetailView.swift */; };
+		6FBEDAB42A40BC8E00E95331 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEDAB32A40BC8E00E95331 /* ChartView.swift */; };
+		6FBEDAB62A40C10700E95331 /* SquareInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEDAB52A40C10700E95331 /* SquareInfoView.swift */; };
+		6FBEDAB82A40C39900E95331 /* WhatsappHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEDAB72A40C39900E95331 /* WhatsappHelper.swift */; };
+		6FBEDABE2A40C97600E95331 /* ScrollableInfoCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEDABD2A40C97600E95331 /* ScrollableInfoCardsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +52,40 @@
 		6F3A85CC2A403E4A00C02867 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6F3A85CE2A403E4B00C02867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F3A85D12A403E4B00C02867 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6FBEDA6C2A4042DA00E95331 /* TabBarHelperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarHelperView.swift; sourceTree = "<group>"; };
+		6FBEDA712A4064AF00E95331 /* Figtree-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		6FBEDA732A4064AF00E95331 /* Figtree-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-ExtraBold.ttf"; sourceTree = "<group>"; };
+		6FBEDA742A4064AF00E95331 /* Figtree-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Bold.ttf"; sourceTree = "<group>"; };
+		6FBEDA752A4064AF00E95331 /* Figtree-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		6FBEDA762A4064AF00E95331 /* Figtree-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Light.ttf"; sourceTree = "<group>"; };
+		6FBEDA772A4064AF00E95331 /* Figtree-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-MediumItalic.ttf"; sourceTree = "<group>"; };
+		6FBEDA782A4064AF00E95331 /* Figtree-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		6FBEDA792A4064AF00E95331 /* Figtree-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Medium.ttf"; sourceTree = "<group>"; };
+		6FBEDA7A2A4064AF00E95331 /* Figtree-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Regular.ttf"; sourceTree = "<group>"; };
+		6FBEDA7B2A4064AF00E95331 /* Figtree-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-BlackItalic.ttf"; sourceTree = "<group>"; };
+		6FBEDA7C2A4064AF00E95331 /* Figtree-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6FBEDA7D2A4064AF00E95331 /* Figtree-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Italic.ttf"; sourceTree = "<group>"; };
+		6FBEDA7E2A4064AF00E95331 /* Figtree-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Black.ttf"; sourceTree = "<group>"; };
+		6FBEDA7F2A4064AF00E95331 /* Figtree-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-LightItalic.ttf"; sourceTree = "<group>"; };
+		6FBEDA802A4064AF00E95331 /* Figtree-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-SemiBold.ttf"; sourceTree = "<group>"; };
+		6FBEDA812A4064AF00E95331 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		6FBEDA822A4064AF00E95331 /* Figtree-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		6FBEDA832A4064AF00E95331 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		6FBEDA962A4064E500E95331 /* Font+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+.swift"; sourceTree = "<group>"; };
+		6FBEDA9A2A406E1B00E95331 /* LinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksView.swift; sourceTree = "<group>"; };
+		6FBEDA9D2A406E5B00E95331 /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
+		6FBEDA9F2A406E6600E95331 /* CampaignsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignsView.swift; sourceTree = "<group>"; };
+		6FBEDAA12A406E7000E95331 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		6FBEDAA32A406F9B00E95331 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		6FBEDAA72A407E3800E95331 /* StretchableRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchableRect.swift; sourceTree = "<group>"; };
+		6FBEDAA92A40878500E95331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6FBEDAAA2A408F3E00E95331 /* RectangleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleButtonView.swift; sourceTree = "<group>"; };
+		6FBEDAAF2A40935900E95331 /* LinkCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkCardView.swift; sourceTree = "<group>"; };
+		6FBEDAB12A409F2200E95331 /* LinksDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksDetailView.swift; sourceTree = "<group>"; };
+		6FBEDAB32A40BC8E00E95331 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		6FBEDAB52A40C10700E95331 /* SquareInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareInfoView.swift; sourceTree = "<group>"; };
+		6FBEDAB72A40C39900E95331 /* WhatsappHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsappHelper.swift; sourceTree = "<group>"; };
+		6FBEDABD2A40C97600E95331 /* ScrollableInfoCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableInfoCardsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +118,12 @@
 		6F3A85C92A403E4A00C02867 /* OpeninApp */ = {
 			isa = PBXGroup;
 			children = (
+				6FBEDAA92A40878500E95331 /* Info.plist */,
 				6F3A85CA2A403E4A00C02867 /* OpeninAppApp.swift */,
 				6F3A85CC2A403E4A00C02867 /* ContentView.swift */,
-				6F3A85CE2A403E4B00C02867 /* Assets.xcassets */,
+				6FBEDA9C2A406E2000E95331 /* Screens */,
+				6FBEDA6E2A4042DF00E95331 /* Helpers */,
+				6FBEDA6F2A40649F00E95331 /* Assets */,
 				6F3A85D02A403E4B00C02867 /* Preview Content */,
 			);
 			path = OpeninApp;
@@ -65,6 +135,133 @@
 				6F3A85D12A403E4B00C02867 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6FBEDA6E2A4042DF00E95331 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6FBEDA962A4064E500E95331 /* Font+.swift */,
+				6FBEDAA32A406F9B00E95331 /* Color+.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6FBEDA6F2A40649F00E95331 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6FBEDA702A4064AF00E95331 /* Figtree */,
+				6F3A85CE2A403E4B00C02867 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		6FBEDA702A4064AF00E95331 /* Figtree */ = {
+			isa = PBXGroup;
+			children = (
+				6FBEDA712A4064AF00E95331 /* Figtree-VariableFont_wght.ttf */,
+				6FBEDA722A4064AF00E95331 /* static */,
+				6FBEDA812A4064AF00E95331 /* OFL.txt */,
+				6FBEDA822A4064AF00E95331 /* Figtree-Italic-VariableFont_wght.ttf */,
+				6FBEDA832A4064AF00E95331 /* README.txt */,
+			);
+			path = Figtree;
+			sourceTree = "<group>";
+		};
+		6FBEDA722A4064AF00E95331 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				6FBEDA732A4064AF00E95331 /* Figtree-ExtraBold.ttf */,
+				6FBEDA742A4064AF00E95331 /* Figtree-Bold.ttf */,
+				6FBEDA752A4064AF00E95331 /* Figtree-SemiBoldItalic.ttf */,
+				6FBEDA762A4064AF00E95331 /* Figtree-Light.ttf */,
+				6FBEDA772A4064AF00E95331 /* Figtree-MediumItalic.ttf */,
+				6FBEDA782A4064AF00E95331 /* Figtree-ExtraBoldItalic.ttf */,
+				6FBEDA792A4064AF00E95331 /* Figtree-Medium.ttf */,
+				6FBEDA7A2A4064AF00E95331 /* Figtree-Regular.ttf */,
+				6FBEDA7B2A4064AF00E95331 /* Figtree-BlackItalic.ttf */,
+				6FBEDA7C2A4064AF00E95331 /* Figtree-BoldItalic.ttf */,
+				6FBEDA7D2A4064AF00E95331 /* Figtree-Italic.ttf */,
+				6FBEDA7E2A4064AF00E95331 /* Figtree-Black.ttf */,
+				6FBEDA7F2A4064AF00E95331 /* Figtree-LightItalic.ttf */,
+				6FBEDA802A4064AF00E95331 /* Figtree-SemiBold.ttf */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
+		6FBEDA9C2A406E2000E95331 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				6FBEDAAC2A4092AE00E95331 /* LinksScreen */,
+				6FBEDAB92A40C8A800E95331 /* CoursesScreen */,
+				6FBEDABA2A40C8B700E95331 /* CampaignScreen */,
+				6FBEDABB2A40C8C700E95331 /* ProfileScreen */,
+				6FBEDAAD2A4092E900E95331 /* HelperViews */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		6FBEDAAC2A4092AE00E95331 /* LinksScreen */ = {
+			isa = PBXGroup;
+			children = (
+				6FBEDABC2A40C8F700E95331 /* Views */,
+			);
+			path = LinksScreen;
+			sourceTree = "<group>";
+		};
+		6FBEDAAD2A4092E900E95331 /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				6FBEDAAA2A408F3E00E95331 /* RectangleButtonView.swift */,
+				6FBEDAA72A407E3800E95331 /* StretchableRect.swift */,
+				6FBEDA6C2A4042DA00E95331 /* TabBarHelperView.swift */,
+				6FBEDAB72A40C39900E95331 /* WhatsappHelper.swift */,
+			);
+			path = HelperViews;
+			sourceTree = "<group>";
+		};
+		6FBEDAAE2A40932600E95331 /* DetailViews */ = {
+			isa = PBXGroup;
+			children = (
+				6FBEDAB12A409F2200E95331 /* LinksDetailView.swift */,
+				6FBEDAAF2A40935900E95331 /* LinkCardView.swift */,
+				6FBEDAB52A40C10700E95331 /* SquareInfoView.swift */,
+				6FBEDAB32A40BC8E00E95331 /* ChartView.swift */,
+				6FBEDABD2A40C97600E95331 /* ScrollableInfoCardsView.swift */,
+			);
+			path = DetailViews;
+			sourceTree = "<group>";
+		};
+		6FBEDAB92A40C8A800E95331 /* CoursesScreen */ = {
+			isa = PBXGroup;
+			children = (
+				6FBEDA9D2A406E5B00E95331 /* CoursesView.swift */,
+			);
+			path = CoursesScreen;
+			sourceTree = "<group>";
+		};
+		6FBEDABA2A40C8B700E95331 /* CampaignScreen */ = {
+			isa = PBXGroup;
+			children = (
+				6FBEDA9F2A406E6600E95331 /* CampaignsView.swift */,
+			);
+			path = CampaignScreen;
+			sourceTree = "<group>";
+		};
+		6FBEDABB2A40C8C700E95331 /* ProfileScreen */ = {
+			isa = PBXGroup;
+			children = (
+				6FBEDAA12A406E7000E95331 /* ProfileView.swift */,
+			);
+			path = ProfileScreen;
+			sourceTree = "<group>";
+		};
+		6FBEDABC2A40C8F700E95331 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6FBEDA9A2A406E1B00E95331 /* LinksView.swift */,
+				6FBEDAAE2A40932600E95331 /* DetailViews */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +322,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FBEDA902A4064AF00E95331 /* Figtree-Black.ttf in Resources */,
+				6FBEDA862A4064AF00E95331 /* Figtree-Bold.ttf in Resources */,
 				6F3A85D22A403E4B00C02867 /* Preview Assets.xcassets in Resources */,
+				6FBEDA882A4064AF00E95331 /* Figtree-Light.ttf in Resources */,
+				6FBEDA912A4064AF00E95331 /* Figtree-LightItalic.ttf in Resources */,
+				6FBEDA872A4064AF00E95331 /* Figtree-SemiBoldItalic.ttf in Resources */,
+				6FBEDA922A4064AF00E95331 /* Figtree-SemiBold.ttf in Resources */,
+				6FBEDA8B2A4064AF00E95331 /* Figtree-Medium.ttf in Resources */,
+				6FBEDA8F2A4064AF00E95331 /* Figtree-Italic.ttf in Resources */,
+				6FBEDA8D2A4064AF00E95331 /* Figtree-BlackItalic.ttf in Resources */,
+				6FBEDA852A4064AF00E95331 /* Figtree-ExtraBold.ttf in Resources */,
+				6FBEDA8E2A4064AF00E95331 /* Figtree-BoldItalic.ttf in Resources */,
+				6FBEDA932A4064AF00E95331 /* OFL.txt in Resources */,
 				6F3A85CF2A403E4B00C02867 /* Assets.xcassets in Resources */,
+				6FBEDA952A4064AF00E95331 /* README.txt in Resources */,
+				6FBEDA942A4064AF00E95331 /* Figtree-Italic-VariableFont_wght.ttf in Resources */,
+				6FBEDA8A2A4064AF00E95331 /* Figtree-ExtraBoldItalic.ttf in Resources */,
+				6FBEDA892A4064AF00E95331 /* Figtree-MediumItalic.ttf in Resources */,
+				6FBEDA842A4064AF00E95331 /* Figtree-VariableFont_wght.ttf in Resources */,
+				6FBEDA8C2A4064AF00E95331 /* Figtree-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +352,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FBEDA972A4064E500E95331 /* Font+.swift in Sources */,
+				6FBEDAAB2A408F3E00E95331 /* RectangleButtonView.swift in Sources */,
+				6FBEDABE2A40C97600E95331 /* ScrollableInfoCardsView.swift in Sources */,
+				6FBEDAA42A406F9B00E95331 /* Color+.swift in Sources */,
+				6FBEDAB42A40BC8E00E95331 /* ChartView.swift in Sources */,
+				6FBEDAA22A406E7000E95331 /* ProfileView.swift in Sources */,
+				6FBEDAA82A407E3800E95331 /* StretchableRect.swift in Sources */,
 				6F3A85CD2A403E4A00C02867 /* ContentView.swift in Sources */,
+				6FBEDAB82A40C39900E95331 /* WhatsappHelper.swift in Sources */,
+				6FBEDA6D2A4042DA00E95331 /* TabBarHelperView.swift in Sources */,
+				6FBEDAA02A406E6600E95331 /* CampaignsView.swift in Sources */,
+				6FBEDAB02A40935900E95331 /* LinkCardView.swift in Sources */,
+				6FBEDAB62A40C10700E95331 /* SquareInfoView.swift in Sources */,
+				6FBEDA9B2A406E1B00E95331 /* LinksView.swift in Sources */,
+				6FBEDAB22A409F2200E95331 /* LinksDetailView.swift in Sources */,
+				6FBEDA9E2A406E5B00E95331 /* CoursesView.swift in Sources */,
 				6F3A85CB2A403E4A00C02867 /* OpeninAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +500,7 @@
 				DEVELOPMENT_TEAM = 8GF7CB6XP8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpeninApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +530,7 @@
 				DEVELOPMENT_TEAM = 8GF7CB6XP8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpeninApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

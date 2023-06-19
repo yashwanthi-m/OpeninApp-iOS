@@ -9,10 +9,30 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-
+        TabView{
+           LinksView()
+                .tabItem{
+                   Label("Links", image: "links")
+                        .foregroundColor(.primary)
+                }
+          CoursesView()
+                .tabItem{
+                   Label("Courses", image: "magazine")
+                        .foregroundColor(.primary)
+                }
+          CampaignsView()
+                .tabItem{
+                   Label("Campaigns", image: "fast-forward")
+                        .foregroundColor(.primary)
+                }
+          ProfileView()
+                .tabItem{
+                   Label("Profile", image: "user")
+                }
+            
         }
-        .padding()
+        .ignoresSafeArea()
+
     }
 }
 
