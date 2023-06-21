@@ -53,6 +53,7 @@ struct ContentView: View {
                     Label("Profile", image: "user")
                 }
             }
+            .accentColor(Color.black)
             TabSelection(height: tbHeight)
         }
     }
