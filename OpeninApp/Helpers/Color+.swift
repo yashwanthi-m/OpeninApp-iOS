@@ -39,7 +39,6 @@ extension Color {
 
     }
 
-
     static func from(hex string: String) -> Color {
         var string = string.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
 
@@ -115,4 +114,3 @@ extension Color {
         }
     }
 }
-

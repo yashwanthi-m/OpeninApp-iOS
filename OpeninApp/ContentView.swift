@@ -13,57 +13,54 @@ struct ContentView: View {
     init() {
         UITabBar.appearance().backgroundColor =  UIColor.white
         UITabBar.appearance().barTintColor =  UIColor.white
-}
-    
+    }
+
     var body: some View {
         ZStack(alignment: .bottom) {
-            TabView{
+            TabView {
                 TabContent(height: $tbHeight, content: {
                     LinksView(viewModel: linkViewModel)
-                        
-                  
+
                 })
-                .tabItem{
+                .tabItem {
                     Label("Links", image: "links")
-                        
+
                 }
                 TabContent(height: $tbHeight, content: {
-             
+
                     CoursesView()
-                        
-                
+
                 })
-                .tabItem{
+                .tabItem {
                     Label("Courses", image: "magazine")
-             
+
                 }
                 Spacer()
                 TabContent(height: $tbHeight, content: {
-              
+
                     CampaignsView()
-                       
-                   
+
                 })
-                .tabItem{
+                .tabItem {
                     Label("Campaigns", image: "fast-forward")
-                    
+
                 }
                 TabContent(height: $tbHeight, content: {
-               
+
                     ProfileView()
-                       
+
                 })
-                .tabItem{
+                .tabItem {
                     Label("Profile", image: "user")
                 }
             }
             TabSelection(height: tbHeight)
         }
     }
-    
+
     struct TabSelection: View {
         let height: CGFloat
-        
+
         var body: some View {
             VStack {
                 Spacer()
@@ -74,23 +71,23 @@ struct ContentView: View {
             .ignoresSafeArea()
             .overlay(
                 Button(action: {
-                    
+
                 }, label: {
                     Circle().foregroundColor(.primaryBlue)
                         .frame(height: 65).aspectRatio(contentMode: .fit)
-                        .shadow(color: .primaryBlue.opacity(0.6) , radius: 5, y: 3)
+                        .shadow(color: .primaryBlue.opacity(0.6), radius: 5, y: 3)
                         .overlay(Image(systemName: "plus")
-                            .font(.title)
-                            .foregroundColor(.white))
-              
+                                    .font(.title)
+                                    .foregroundColor(.white))
+
                 })
                 .offset(y: -7.5)
-                
+
                 , alignment: .bottom)
-              
+
         }
     }
-    
+
     struct TabContent<V: View>: View {
         @Binding var height: CGFloat
         @ViewBuilder var content: () -> V
@@ -106,7 +103,7 @@ struct ContentView: View {
             }
         }
     }
-    
+
     struct Curve: Shape {
         func path(in rect: CGRect) -> Path {
             let h = -rect.maxY * 0.35

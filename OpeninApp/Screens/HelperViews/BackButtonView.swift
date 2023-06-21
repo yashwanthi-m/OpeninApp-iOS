@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-import SwiftUI
-
 struct BackButtonView: View {
     var accentColor: Color = .white
     var imgheight: CGFloat = 12

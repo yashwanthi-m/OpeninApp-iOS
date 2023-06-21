@@ -7,9 +7,6 @@
 
 import SwiftUI
 
-
-import SwiftUI
-
 struct RectangleButtonView: View {
     var buttonName: String
     var buttonColor: Color

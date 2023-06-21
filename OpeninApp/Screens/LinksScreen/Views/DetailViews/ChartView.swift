@@ -9,17 +9,17 @@ import SwiftUI
 import Charts
 
 struct ChartView: View {
-    
-    @ObservedObject var viewModel : ViewModel
+
+    @ObservedObject var viewModel: ViewModel
     @State var scrollSpot = ""
     struct Item: Identifiable {
         var id = UUID()
         let type: String
         let value: Int
     }
-    
+
     let curGradient = LinearGradient(
-        gradient: Gradient (
+        gradient: Gradient(
             colors: [
                 Color.primaryBlue.opacity(0.4),
                 Color.primaryBlue.opacity(0.0)
@@ -28,35 +28,31 @@ struct ChartView: View {
         startPoint: .top,
         endPoint: .bottom
     )
-    
+
     var items: [Item] = []
     let itemWidth: CGFloat = 50
-    init(viewModel : ViewModel)
-    {
+    init(viewModel: ViewModel) {
         self.viewModel = viewModel
-        
-        
-        
+
         for (key, value) in viewModel.linkInfo.data?.overallChartData ?? [:] {
-            
-            items.append(Item(type : key, value :
+
+            items.append(Item(type: key, value:
                                 value))
-            items = items.sorted{
+            items = items.sorted {
                 $0.type < $1.type
             }
-            
+
         }
-        
-        
+
     }
     var body: some View {
         VStack {
-            ZStack{
+            ZStack {
                 RoundedRectangle(cornerRadius: 8)
                     .frame(height: UIScreen.main.bounds.height * 0.29)
                     .padding(.vertical, 20)
                     .foregroundColor(.white)
-                HStack{
+                HStack {
                     Text("Overview")
                         .foregroundColor(.secondaryGray)
                         .font(.FontRegular14)
@@ -70,13 +66,13 @@ struct ChartView: View {
                             RoundedRectangle(cornerRadius: 6)
                                 .stroke(.gray, lineWidth: 0.5)
                                 .padding(.horizontal, 0)
-                                .overlay{
-                                    HStack{
+                                .overlay {
+                                    HStack {
                                         Text("21 May - 21 June")
-                                            .padding(.leading,5)
+                                            .padding(.leading, 5)
                                             .font(.FontRegular12)
                                         Image("clock")
-                                            .padding(.trailing,5)
+                                            .padding(.trailing, 5)
                                     }
                                 }
                         )
@@ -96,34 +92,32 @@ struct ChartView: View {
                                 ForEach(items.reversed()) { item in
                                     Rectangle()
                                         .fill(.clear)
-                                    
-                                    // Setting maxWidth to .infinity here, combined
-                                    // with spacing:0 above, makes the rectangles
-                                    // expand to fill the frame specified for the
-                                    // chart below.
+
+                                        // Setting maxWidth to .infinity here, combined
+                                        // with spacing:0 above, makes the rectangles
+                                        // expand to fill the frame specified for the
+                                        // chart below.
                                         .frame(maxWidth: .infinity, maxHeight: 0)
-                                    
-                                    // Here, set the rectangle's id to match the
-                                    // charted data.
+
+                                        // Here, set the rectangle's id to match the
+                                        // charted data.
                                         .id(item.type)
                                 }
                             }
-                            
-                            
-                            
+
                             Chart(items.reversed()) { item in
                                 AreaMark(
-                                    x: .value("Date", dateStringToMonthString(dateString:String(item.type))),
+                                    x: .value("Date", dateStringToMonthString(dateString: String(item.type))),
                                     y: .value("Points", item.value)
                                 )
                                 //                                                 .interpolationMethod(.catmullRom)
                                 .foregroundStyle(curGradient)
                                 LineMark(
-                                    x: .value("Date", dateStringToMonthString(dateString:String(item.type))),
+                                    x: .value("Date", dateStringToMonthString(dateString: String(item.type))),
                                     y: .value("Points", item.value)
                                 )
                                 .foregroundStyle(Color.primaryBlue)
-                                
+
                                 //                                .interpolationMethod(.catmullRom)
                             }
                             .chartYAxis {
@@ -153,8 +147,8 @@ struct ChartView: View {
     }
 }
 
-//struct ChartView_Previews: PreviewProvider {
+// struct ChartView_Previews: PreviewProvider {
 //    static var previews: some View {
 //        ChartView(viewModel: <#ViewModel#>)
 //    }
-//}
+// }

@@ -8,28 +8,28 @@
 import SwiftUI
 
 struct SquareInfoView: View {
-    var imageName : String
-    var info : String
-    var title : String
+    var imageName: String
+    var info: String
+    var title: String
     var body: some View {
         Rectangle()        .frame(width: 120, height: 120)
             .cornerRadius(8, corners: [.allCorners])
             .foregroundColor(.white)
-            .overlay{
-                VStack{
-                    HStack{
+            .overlay {
+                VStack {
+                    HStack {
                         Image(imageName)
                             .padding(.bottom)
                         Spacer()
                     }
                     Spacer()
-                    HStack{
+                    HStack {
                         Text(info)
                             .font(.Font16)
                         Spacer()
                     }
-                    .padding(.vertical,1)
-                    HStack{
+                    .padding(.vertical, 1)
+                    HStack {
                         Text(title)
                             .font(.FontRegular14)
                             .foregroundColor(.secondaryGray)
@@ -38,8 +38,8 @@ struct SquareInfoView: View {
                 }
                 .padding(.leading)
                 .padding(.vertical)
-            
-    }
+
+            }
     }
 }
 

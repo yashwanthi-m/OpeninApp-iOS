@@ -17,8 +17,8 @@ struct StretchyRectangleView: View {
             if geometry.frame(in: .global).minY <= 0 {
                 Rectangle()
                     .foregroundColor(rectColor)
-                    .cornerRadius(cornerRadius, corners:  [.bottomRight, .bottomLeft]
-)
+                    .cornerRadius(cornerRadius, corners: [.bottomRight, .bottomLeft]
+                    )
                     .frame(width: geometry.size.width,
                            height: UIScreen.main.bounds.height * heightpct)
             } else {

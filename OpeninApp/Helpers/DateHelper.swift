@@ -6,9 +6,9 @@
 //
 
 import Foundation
-//String to Date Convert
+// String to Date Convert
 
-func dateStringToMonthString(dateString : String) -> String {
+func dateStringToMonthString(dateString: String) -> String {
     let dateFormatter = DateFormatter()
     dateFormatter.dateFormat = "yyyy-MM-dd"
     let s = dateFormatter.date(from: dateString) ?? Date()
@@ -20,7 +20,7 @@ func dateStringToMonthString(dateString : String) -> String {
     let dateStr2 = dateStr + "-" + monthStr
     return String(dateStr2)
 }
-func dateStringToYearString(dateString : String) -> String {
+func dateStringToYearString(dateString: String) -> String {
     let dateFormatter = DateFormatter()
     dateFormatter.dateFormat = "yyyy-MM-dd"
     let s = dateFormatter.date(from: dateString) ?? Date()
@@ -34,10 +34,3 @@ func dateStringToYearString(dateString : String) -> String {
     return String(dateStr2)
 
 }
-
-
-
-
-
-
-

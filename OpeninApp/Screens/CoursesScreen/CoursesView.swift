@@ -9,8 +9,8 @@ import SwiftUI
 
 struct CoursesView: View {
     var body: some View {
-        VStack{
-            Image(systemName : "aqi.medium")
+        VStack {
+            Image(systemName: "aqi.medium")
                 .resizable()
                 .foregroundColor(.orange)
                 .frame(width: 100, height: 100)
