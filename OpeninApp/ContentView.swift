@@ -24,7 +24,6 @@ struct ContentView: View {
                 })
                 .tabItem {
                     Label("Links", image: "links")
-
                 }
                 TabContent(height: $tbHeight, content: {
 
