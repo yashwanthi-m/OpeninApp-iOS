@@ -78,7 +78,7 @@ struct ContentView: View {
                 }, label: {
                     Circle().foregroundColor(.primaryBlue)
                         .frame(height: 65).aspectRatio(contentMode: .fit)
-                        .shadow(color: .primaryBlue.opacity(0.6) , radius: 5, y: 2)
+                        .shadow(color: .primaryBlue.opacity(0.6) , radius: 5, y: 3)
                         .overlay(Image(systemName: "plus")
                             .font(.title)
                             .foregroundColor(.white))
