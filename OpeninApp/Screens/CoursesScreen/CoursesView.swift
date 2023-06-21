@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CoursesView: View {
     var body: some View {
-        ZStack{
+        ZStack {
             Color.primaryGray
             VStack {
                 Image(systemName: "aqi.medium")

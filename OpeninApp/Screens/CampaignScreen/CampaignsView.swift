@@ -9,19 +9,19 @@ import SwiftUI
 
 struct CampaignsView: View {
     var body: some View {
-        ZStack{
+        ZStack {
             Color.primaryGray
-        VStack {
-            Image(systemName: "mic.fill")
-                .resizable()
-                .frame(width: 100, height: 150)
-                .foregroundColor(.red.opacity(0.4))
-                .padding()
-            Text("Coming Soon!")
-                .font(.Font24)
+            VStack {
+                Image(systemName: "mic.fill")
+                    .resizable()
+                    .frame(width: 100, height: 150)
+                    .foregroundColor(.red.opacity(0.4))
+                    .padding()
+                Text("Coming Soon!")
+                    .font(.Font24)
+            }
         }
-    }
-    .ignoresSafeArea()
+        .ignoresSafeArea()
     }
 }
 

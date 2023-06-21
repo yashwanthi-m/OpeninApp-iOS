@@ -21,26 +21,25 @@ struct LinkCardView: View {
                 .frame(height: UIScreen.main.bounds.height * 0.14)
                 .foregroundColor(.white)
             HStack {
-                    if let imagehdURL = URL(string: image) {
-                        Color.clear.overlay(
-                            CacheAsyncImage(url: imagehdURL) { phase in
-                                switch phase {
-                                case.success(let image):
-                                    image.resizable()
-                                        .padding(.horizontal, 12)
-                                        .scaledToFit()
-                                @unknown default:
-                                    Image("nopic")
-                                        .resizable()
-                                        .frame(width: 50, height: 48)
-                                        .opacity(0.45)
-                                }
+                if let imagehdURL = URL(string: image) {
+                    Color.clear.overlay(
+                        CacheAsyncImage(url: imagehdURL) { phase in
+                            switch phase {
+                            case.success(let image):
+                                image.resizable()
+                                    .padding(.horizontal, 12)
+                                    .scaledToFit()
+                            @unknown default:
+                                Image("nopic")
+                                    .resizable()
+                                    .frame(width: 50, height: 48)
+                                    .opacity(0.45)
                             }
-                            
-                        )
-                        .frame(width: 80, height: 48)
-                    }
-             
+                        }
+
+                    )
+                    .frame(width: 80, height: 48)
+                }
 
                 VStack {
                     HStack {

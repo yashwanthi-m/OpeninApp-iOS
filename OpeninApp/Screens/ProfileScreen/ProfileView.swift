@@ -9,19 +9,19 @@ import SwiftUI
 
 struct ProfileView: View {
     var body: some View {
-        ZStack{
+        ZStack {
             Color.primaryGray
-        VStack {
-            Image(systemName: "person.crop.circle.fill")
-                .resizable()
-                .frame(width: 100, height: 100)
-                .foregroundColor(.primaryBlue)
-                .padding()
-            Text("Coming Soon!")
-                .font(.Font24)
+            VStack {
+                Image(systemName: "person.crop.circle.fill")
+                    .resizable()
+                    .frame(width: 100, height: 100)
+                    .foregroundColor(.primaryBlue)
+                    .padding()
+                Text("Coming Soon!")
+                    .font(.Font24)
+            }
         }
-    }
-    .ignoresSafeArea()
+        .ignoresSafeArea()
     }
 }
 
