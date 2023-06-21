@@ -11,24 +11,6 @@
 		6F3A85CD2A403E4A00C02867 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3A85CC2A403E4A00C02867 /* ContentView.swift */; };
 		6F3A85CF2A403E4B00C02867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F3A85CE2A403E4B00C02867 /* Assets.xcassets */; };
 		6F3A85D22A403E4B00C02867 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F3A85D12A403E4B00C02867 /* Preview Assets.xcassets */; };
-		6FBEDA842A4064AF00E95331 /* Figtree-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA712A4064AF00E95331 /* Figtree-VariableFont_wght.ttf */; };
-		6FBEDA852A4064AF00E95331 /* Figtree-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA732A4064AF00E95331 /* Figtree-ExtraBold.ttf */; };
-		6FBEDA862A4064AF00E95331 /* Figtree-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA742A4064AF00E95331 /* Figtree-Bold.ttf */; };
-		6FBEDA872A4064AF00E95331 /* Figtree-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA752A4064AF00E95331 /* Figtree-SemiBoldItalic.ttf */; };
-		6FBEDA882A4064AF00E95331 /* Figtree-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA762A4064AF00E95331 /* Figtree-Light.ttf */; };
-		6FBEDA892A4064AF00E95331 /* Figtree-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA772A4064AF00E95331 /* Figtree-MediumItalic.ttf */; };
-		6FBEDA8A2A4064AF00E95331 /* Figtree-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA782A4064AF00E95331 /* Figtree-ExtraBoldItalic.ttf */; };
-		6FBEDA8B2A4064AF00E95331 /* Figtree-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA792A4064AF00E95331 /* Figtree-Medium.ttf */; };
-		6FBEDA8C2A4064AF00E95331 /* Figtree-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA7A2A4064AF00E95331 /* Figtree-Regular.ttf */; };
-		6FBEDA8D2A4064AF00E95331 /* Figtree-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA7B2A4064AF00E95331 /* Figtree-BlackItalic.ttf */; };
-		6FBEDA8E2A4064AF00E95331 /* Figtree-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA7C2A4064AF00E95331 /* Figtree-BoldItalic.ttf */; };
-		6FBEDA8F2A4064AF00E95331 /* Figtree-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA7D2A4064AF00E95331 /* Figtree-Italic.ttf */; };
-		6FBEDA902A4064AF00E95331 /* Figtree-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA7E2A4064AF00E95331 /* Figtree-Black.ttf */; };
-		6FBEDA912A4064AF00E95331 /* Figtree-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA7F2A4064AF00E95331 /* Figtree-LightItalic.ttf */; };
-		6FBEDA922A4064AF00E95331 /* Figtree-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA802A4064AF00E95331 /* Figtree-SemiBold.ttf */; };
-		6FBEDA932A4064AF00E95331 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA812A4064AF00E95331 /* OFL.txt */; };
-		6FBEDA942A4064AF00E95331 /* Figtree-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA822A4064AF00E95331 /* Figtree-Italic-VariableFont_wght.ttf */; };
-		6FBEDA952A4064AF00E95331 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDA832A4064AF00E95331 /* README.txt */; };
 		6FBEDA972A4064E500E95331 /* Font+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEDA962A4064E500E95331 /* Font+.swift */; };
 		6FBEDA9B2A406E1B00E95331 /* LinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEDA9A2A406E1B00E95331 /* LinksView.swift */; };
 		6FBEDA9E2A406E5B00E95331 /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEDA9D2A406E5B00E95331 /* CoursesView.swift */; };
@@ -50,6 +32,24 @@
 		6FBEDACE2A419C8800E95331 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEDACD2A419C8800E95331 /* DateHelper.swift */; };
 		6FBEDAD22A41B76B00E95331 /* AllLinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEDAD12A41B76B00E95331 /* AllLinksView.swift */; };
 		6FBEDAD42A41C04A00E95331 /* BackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEDAD32A41C04A00E95331 /* BackButtonView.swift */; };
+		6FBEDAEA2A42E9C400E95331 /* Figtree-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDAD72A42E9C300E95331 /* Figtree-VariableFont_wght.ttf */; };
+		6FBEDAEB2A42E9C400E95331 /* Figtree-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDAD92A42E9C300E95331 /* Figtree-ExtraBold.ttf */; };
+		6FBEDAEC2A42E9C400E95331 /* Figtree-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDADA2A42E9C300E95331 /* Figtree-Bold.ttf */; };
+		6FBEDAED2A42E9C400E95331 /* Figtree-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDADB2A42E9C300E95331 /* Figtree-SemiBoldItalic.ttf */; };
+		6FBEDAEE2A42E9C400E95331 /* Figtree-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDADC2A42E9C300E95331 /* Figtree-Light.ttf */; };
+		6FBEDAEF2A42E9C400E95331 /* Figtree-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDADD2A42E9C300E95331 /* Figtree-MediumItalic.ttf */; };
+		6FBEDAF02A42E9C400E95331 /* Figtree-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDADE2A42E9C300E95331 /* Figtree-ExtraBoldItalic.ttf */; };
+		6FBEDAF12A42E9C400E95331 /* Figtree-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDADF2A42E9C300E95331 /* Figtree-Medium.ttf */; };
+		6FBEDAF22A42E9C400E95331 /* Figtree-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDAE02A42E9C300E95331 /* Figtree-Regular.ttf */; };
+		6FBEDAF32A42E9C400E95331 /* Figtree-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDAE12A42E9C300E95331 /* Figtree-BlackItalic.ttf */; };
+		6FBEDAF42A42E9C400E95331 /* Figtree-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDAE22A42E9C300E95331 /* Figtree-BoldItalic.ttf */; };
+		6FBEDAF52A42E9C400E95331 /* Figtree-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDAE32A42E9C300E95331 /* Figtree-Italic.ttf */; };
+		6FBEDAF62A42E9C400E95331 /* Figtree-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDAE42A42E9C300E95331 /* Figtree-Black.ttf */; };
+		6FBEDAF72A42E9C400E95331 /* Figtree-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDAE52A42E9C300E95331 /* Figtree-LightItalic.ttf */; };
+		6FBEDAF82A42E9C400E95331 /* Figtree-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDAE62A42E9C300E95331 /* Figtree-SemiBold.ttf */; };
+		6FBEDAF92A42E9C400E95331 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDAE72A42E9C300E95331 /* OFL.txt */; };
+		6FBEDAFA2A42E9C400E95331 /* Figtree-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDAE82A42E9C300E95331 /* Figtree-Italic-VariableFont_wght.ttf */; };
+		6FBEDAFB2A42E9C400E95331 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEDAE92A42E9C300E95331 /* README.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,24 +58,6 @@
 		6F3A85CC2A403E4A00C02867 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6F3A85CE2A403E4B00C02867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F3A85D12A403E4B00C02867 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6FBEDA712A4064AF00E95331 /* Figtree-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-VariableFont_wght.ttf"; sourceTree = "<group>"; };
-		6FBEDA732A4064AF00E95331 /* Figtree-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-ExtraBold.ttf"; sourceTree = "<group>"; };
-		6FBEDA742A4064AF00E95331 /* Figtree-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Bold.ttf"; sourceTree = "<group>"; };
-		6FBEDA752A4064AF00E95331 /* Figtree-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
-		6FBEDA762A4064AF00E95331 /* Figtree-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Light.ttf"; sourceTree = "<group>"; };
-		6FBEDA772A4064AF00E95331 /* Figtree-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-MediumItalic.ttf"; sourceTree = "<group>"; };
-		6FBEDA782A4064AF00E95331 /* Figtree-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
-		6FBEDA792A4064AF00E95331 /* Figtree-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Medium.ttf"; sourceTree = "<group>"; };
-		6FBEDA7A2A4064AF00E95331 /* Figtree-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Regular.ttf"; sourceTree = "<group>"; };
-		6FBEDA7B2A4064AF00E95331 /* Figtree-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-BlackItalic.ttf"; sourceTree = "<group>"; };
-		6FBEDA7C2A4064AF00E95331 /* Figtree-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-BoldItalic.ttf"; sourceTree = "<group>"; };
-		6FBEDA7D2A4064AF00E95331 /* Figtree-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Italic.ttf"; sourceTree = "<group>"; };
-		6FBEDA7E2A4064AF00E95331 /* Figtree-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Black.ttf"; sourceTree = "<group>"; };
-		6FBEDA7F2A4064AF00E95331 /* Figtree-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-LightItalic.ttf"; sourceTree = "<group>"; };
-		6FBEDA802A4064AF00E95331 /* Figtree-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-SemiBold.ttf"; sourceTree = "<group>"; };
-		6FBEDA812A4064AF00E95331 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
-		6FBEDA822A4064AF00E95331 /* Figtree-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
-		6FBEDA832A4064AF00E95331 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		6FBEDA962A4064E500E95331 /* Font+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+.swift"; sourceTree = "<group>"; };
 		6FBEDA9A2A406E1B00E95331 /* LinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksView.swift; sourceTree = "<group>"; };
 		6FBEDA9D2A406E5B00E95331 /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
@@ -98,6 +80,24 @@
 		6FBEDACD2A419C8800E95331 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
 		6FBEDAD12A41B76B00E95331 /* AllLinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllLinksView.swift; sourceTree = "<group>"; };
 		6FBEDAD32A41C04A00E95331 /* BackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonView.swift; sourceTree = "<group>"; };
+		6FBEDAD72A42E9C300E95331 /* Figtree-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		6FBEDAD92A42E9C300E95331 /* Figtree-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-ExtraBold.ttf"; sourceTree = "<group>"; };
+		6FBEDADA2A42E9C300E95331 /* Figtree-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Bold.ttf"; sourceTree = "<group>"; };
+		6FBEDADB2A42E9C300E95331 /* Figtree-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		6FBEDADC2A42E9C300E95331 /* Figtree-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Light.ttf"; sourceTree = "<group>"; };
+		6FBEDADD2A42E9C300E95331 /* Figtree-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-MediumItalic.ttf"; sourceTree = "<group>"; };
+		6FBEDADE2A42E9C300E95331 /* Figtree-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		6FBEDADF2A42E9C300E95331 /* Figtree-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Medium.ttf"; sourceTree = "<group>"; };
+		6FBEDAE02A42E9C300E95331 /* Figtree-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Regular.ttf"; sourceTree = "<group>"; };
+		6FBEDAE12A42E9C300E95331 /* Figtree-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-BlackItalic.ttf"; sourceTree = "<group>"; };
+		6FBEDAE22A42E9C300E95331 /* Figtree-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6FBEDAE32A42E9C300E95331 /* Figtree-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Italic.ttf"; sourceTree = "<group>"; };
+		6FBEDAE42A42E9C300E95331 /* Figtree-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Black.ttf"; sourceTree = "<group>"; };
+		6FBEDAE52A42E9C300E95331 /* Figtree-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-LightItalic.ttf"; sourceTree = "<group>"; };
+		6FBEDAE62A42E9C300E95331 /* Figtree-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-SemiBold.ttf"; sourceTree = "<group>"; };
+		6FBEDAE72A42E9C300E95331 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		6FBEDAE82A42E9C300E95331 /* Figtree-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		6FBEDAE92A42E9C300E95331 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,43 +165,10 @@
 		6FBEDA6F2A40649F00E95331 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				6FBEDA702A4064AF00E95331 /* Figtree */,
+				6FBEDAD62A42E9C300E95331 /* Figtree */,
 				6F3A85CE2A403E4B00C02867 /* Assets.xcassets */,
 			);
 			path = Assets;
-			sourceTree = "<group>";
-		};
-		6FBEDA702A4064AF00E95331 /* Figtree */ = {
-			isa = PBXGroup;
-			children = (
-				6FBEDA712A4064AF00E95331 /* Figtree-VariableFont_wght.ttf */,
-				6FBEDA722A4064AF00E95331 /* static */,
-				6FBEDA812A4064AF00E95331 /* OFL.txt */,
-				6FBEDA822A4064AF00E95331 /* Figtree-Italic-VariableFont_wght.ttf */,
-				6FBEDA832A4064AF00E95331 /* README.txt */,
-			);
-			path = Figtree;
-			sourceTree = "<group>";
-		};
-		6FBEDA722A4064AF00E95331 /* static */ = {
-			isa = PBXGroup;
-			children = (
-				6FBEDA732A4064AF00E95331 /* Figtree-ExtraBold.ttf */,
-				6FBEDA742A4064AF00E95331 /* Figtree-Bold.ttf */,
-				6FBEDA752A4064AF00E95331 /* Figtree-SemiBoldItalic.ttf */,
-				6FBEDA762A4064AF00E95331 /* Figtree-Light.ttf */,
-				6FBEDA772A4064AF00E95331 /* Figtree-MediumItalic.ttf */,
-				6FBEDA782A4064AF00E95331 /* Figtree-ExtraBoldItalic.ttf */,
-				6FBEDA792A4064AF00E95331 /* Figtree-Medium.ttf */,
-				6FBEDA7A2A4064AF00E95331 /* Figtree-Regular.ttf */,
-				6FBEDA7B2A4064AF00E95331 /* Figtree-BlackItalic.ttf */,
-				6FBEDA7C2A4064AF00E95331 /* Figtree-BoldItalic.ttf */,
-				6FBEDA7D2A4064AF00E95331 /* Figtree-Italic.ttf */,
-				6FBEDA7E2A4064AF00E95331 /* Figtree-Black.ttf */,
-				6FBEDA7F2A4064AF00E95331 /* Figtree-LightItalic.ttf */,
-				6FBEDA802A4064AF00E95331 /* Figtree-SemiBold.ttf */,
-			);
-			path = static;
 			sourceTree = "<group>";
 		};
 		6FBEDA9C2A406E2000E95331 /* Screens */ = {
@@ -298,6 +265,39 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		6FBEDAD62A42E9C300E95331 /* Figtree */ = {
+			isa = PBXGroup;
+			children = (
+				6FBEDAD72A42E9C300E95331 /* Figtree-VariableFont_wght.ttf */,
+				6FBEDAD82A42E9C300E95331 /* static */,
+				6FBEDAE72A42E9C300E95331 /* OFL.txt */,
+				6FBEDAE82A42E9C300E95331 /* Figtree-Italic-VariableFont_wght.ttf */,
+				6FBEDAE92A42E9C300E95331 /* README.txt */,
+			);
+			path = Figtree;
+			sourceTree = "<group>";
+		};
+		6FBEDAD82A42E9C300E95331 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				6FBEDAD92A42E9C300E95331 /* Figtree-ExtraBold.ttf */,
+				6FBEDADA2A42E9C300E95331 /* Figtree-Bold.ttf */,
+				6FBEDADB2A42E9C300E95331 /* Figtree-SemiBoldItalic.ttf */,
+				6FBEDADC2A42E9C300E95331 /* Figtree-Light.ttf */,
+				6FBEDADD2A42E9C300E95331 /* Figtree-MediumItalic.ttf */,
+				6FBEDADE2A42E9C300E95331 /* Figtree-ExtraBoldItalic.ttf */,
+				6FBEDADF2A42E9C300E95331 /* Figtree-Medium.ttf */,
+				6FBEDAE02A42E9C300E95331 /* Figtree-Regular.ttf */,
+				6FBEDAE12A42E9C300E95331 /* Figtree-BlackItalic.ttf */,
+				6FBEDAE22A42E9C300E95331 /* Figtree-BoldItalic.ttf */,
+				6FBEDAE32A42E9C300E95331 /* Figtree-Italic.ttf */,
+				6FBEDAE42A42E9C300E95331 /* Figtree-Black.ttf */,
+				6FBEDAE52A42E9C300E95331 /* Figtree-LightItalic.ttf */,
+				6FBEDAE62A42E9C300E95331 /* Figtree-SemiBold.ttf */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -356,26 +356,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FBEDA902A4064AF00E95331 /* Figtree-Black.ttf in Resources */,
-				6FBEDA862A4064AF00E95331 /* Figtree-Bold.ttf in Resources */,
+				6FBEDAF62A42E9C400E95331 /* Figtree-Black.ttf in Resources */,
+				6FBEDAEC2A42E9C400E95331 /* Figtree-Bold.ttf in Resources */,
 				6F3A85D22A403E4B00C02867 /* Preview Assets.xcassets in Resources */,
-				6FBEDA882A4064AF00E95331 /* Figtree-Light.ttf in Resources */,
-				6FBEDA912A4064AF00E95331 /* Figtree-LightItalic.ttf in Resources */,
-				6FBEDA872A4064AF00E95331 /* Figtree-SemiBoldItalic.ttf in Resources */,
-				6FBEDA922A4064AF00E95331 /* Figtree-SemiBold.ttf in Resources */,
-				6FBEDA8B2A4064AF00E95331 /* Figtree-Medium.ttf in Resources */,
-				6FBEDA8F2A4064AF00E95331 /* Figtree-Italic.ttf in Resources */,
-				6FBEDA8D2A4064AF00E95331 /* Figtree-BlackItalic.ttf in Resources */,
-				6FBEDA852A4064AF00E95331 /* Figtree-ExtraBold.ttf in Resources */,
-				6FBEDA8E2A4064AF00E95331 /* Figtree-BoldItalic.ttf in Resources */,
-				6FBEDA932A4064AF00E95331 /* OFL.txt in Resources */,
+				6FBEDAEE2A42E9C400E95331 /* Figtree-Light.ttf in Resources */,
+				6FBEDAF72A42E9C400E95331 /* Figtree-LightItalic.ttf in Resources */,
+				6FBEDAED2A42E9C400E95331 /* Figtree-SemiBoldItalic.ttf in Resources */,
+				6FBEDAF82A42E9C400E95331 /* Figtree-SemiBold.ttf in Resources */,
+				6FBEDAF12A42E9C400E95331 /* Figtree-Medium.ttf in Resources */,
+				6FBEDAF52A42E9C400E95331 /* Figtree-Italic.ttf in Resources */,
+				6FBEDAF32A42E9C400E95331 /* Figtree-BlackItalic.ttf in Resources */,
+				6FBEDAEB2A42E9C400E95331 /* Figtree-ExtraBold.ttf in Resources */,
+				6FBEDAF42A42E9C400E95331 /* Figtree-BoldItalic.ttf in Resources */,
+				6FBEDAF92A42E9C400E95331 /* OFL.txt in Resources */,
 				6F3A85CF2A403E4B00C02867 /* Assets.xcassets in Resources */,
-				6FBEDA952A4064AF00E95331 /* README.txt in Resources */,
-				6FBEDA942A4064AF00E95331 /* Figtree-Italic-VariableFont_wght.ttf in Resources */,
-				6FBEDA8A2A4064AF00E95331 /* Figtree-ExtraBoldItalic.ttf in Resources */,
-				6FBEDA892A4064AF00E95331 /* Figtree-MediumItalic.ttf in Resources */,
-				6FBEDA842A4064AF00E95331 /* Figtree-VariableFont_wght.ttf in Resources */,
-				6FBEDA8C2A4064AF00E95331 /* Figtree-Regular.ttf in Resources */,
+				6FBEDAFB2A42E9C400E95331 /* README.txt in Resources */,
+				6FBEDAFA2A42E9C400E95331 /* Figtree-Italic-VariableFont_wght.ttf in Resources */,
+				6FBEDAF02A42E9C400E95331 /* Figtree-ExtraBoldItalic.ttf in Resources */,
+				6FBEDAEF2A42E9C400E95331 /* Figtree-MediumItalic.ttf in Resources */,
+				6FBEDAEA2A42E9C400E95331 /* Figtree-VariableFont_wght.ttf in Resources */,
+				6FBEDAF22A42E9C400E95331 /* Figtree-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
