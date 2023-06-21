@@ -9,6 +9,8 @@ import SwiftUI
 
 struct CampaignsView: View {
     var body: some View {
+        ZStack{
+            Color.primaryGray
         VStack {
             Image(systemName: "mic.fill")
                 .resizable()
@@ -18,6 +20,8 @@ struct CampaignsView: View {
             Text("Coming Soon!")
                 .font(.Font24)
         }
+    }
+    .ignoresSafeArea()
     }
 }
 

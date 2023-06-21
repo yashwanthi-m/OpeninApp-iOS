@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ProfileView: View {
     var body: some View {
+        ZStack{
+            Color.primaryGray
         VStack {
             Image(systemName: "person.crop.circle.fill")
                 .resizable()
@@ -18,6 +20,8 @@ struct ProfileView: View {
             Text("Coming Soon!")
                 .font(.Font24)
         }
+    }
+    .ignoresSafeArea()
     }
 }
 

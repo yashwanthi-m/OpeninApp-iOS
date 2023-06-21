@@ -9,15 +9,19 @@ import SwiftUI
 
 struct CoursesView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "aqi.medium")
-                .resizable()
-                .foregroundColor(.orange)
-                .frame(width: 100, height: 100)
-                .padding()
-            Text("Coming Soon!")
-                .font(.Font24)
+        ZStack{
+            Color.primaryGray
+            VStack {
+                Image(systemName: "aqi.medium")
+                    .resizable()
+                    .foregroundColor(.orange)
+                    .frame(width: 100, height: 100)
+                    .padding()
+                Text("Coming Soon!")
+                    .font(.Font24)
+            }
         }
+        .ignoresSafeArea()
     }
 }
 
