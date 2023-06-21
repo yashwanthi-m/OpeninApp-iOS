@@ -130,12 +130,12 @@ struct ChartView: View {
                         }
                     }
                     .padding()
-                    .onChange(of: scrollSpot, perform: { y in
-                        if y != "" {
-                            scrollPosition.scrollTo(y)
-                            scrollSpot = ""
-                        }
-                    })
+//                    .onChange(of: scrollSpot, perform: { y in
+//                        if y != "" {
+//                            scrollPosition.scrollTo(y)
+//                            scrollSpot = ""
+//                        }
+//                    })
                 }
                 .onAppear {
                     if let x = items.first?.type {
