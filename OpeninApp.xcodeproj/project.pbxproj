@@ -65,7 +65,6 @@
 		6FBEDAA12A406E7000E95331 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		6FBEDAA32A406F9B00E95331 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		6FBEDAA72A407E3800E95331 /* StretchableRectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchableRectView.swift; sourceTree = "<group>"; };
-		6FBEDAA92A40878500E95331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6FBEDAAA2A408F3E00E95331 /* RectangleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleButtonView.swift; sourceTree = "<group>"; };
 		6FBEDAAF2A40935900E95331 /* LinkCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkCardView.swift; sourceTree = "<group>"; };
 		6FBEDAB12A409F2200E95331 /* LinksDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksDetailView.swift; sourceTree = "<group>"; };
@@ -130,7 +129,6 @@
 		6F3A85C92A403E4A00C02867 /* OpeninApp */ = {
 			isa = PBXGroup;
 			children = (
-				6FBEDAA92A40878500E95331 /* Info.plist */,
 				6F3A85CA2A403E4A00C02867 /* OpeninAppApp.swift */,
 				6F3A85CC2A403E4A00C02867 /* ContentView.swift */,
 				6FBEDA9C2A406E2000E95331 /* Screens */,

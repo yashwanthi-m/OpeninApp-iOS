@@ -99,6 +99,7 @@ struct LinkCardView: View {
                         Text(link)
                             .padding(.leading, 12)
                             .font(.FontRegular14)
+                            .foregroundColor(.primaryBlue)
                         Spacer()
                         Button(action: {
                             UIPasteboard.general.string = link
