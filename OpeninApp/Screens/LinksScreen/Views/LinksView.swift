@@ -23,14 +23,14 @@ struct LinksView: View {
                                         .foregroundColor(.white)
                                         .font(.Font24)
                                         .padding(.leading, 25)
-                                        .padding(.top, 25)
+                                        .padding(.top, 40)
                                     Spacer()
                                     Button(action: {
 
                                     }, label: {
                                         Image("NavButton")
                                             .padding(.trailing, 20)
-                                            .padding(.top, 25)
+                                            .padding(.top, 35)
                                     })
                                 }
                             }
