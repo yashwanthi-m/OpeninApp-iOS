@@ -8,20 +8,24 @@
 import SwiftUI
 
 struct ScrollableInfoCardsView: View {
+    var clicks : String
+    var topLocation: String
+    var topSource : String
+    var time : String
     var body: some View {
         ScrollView(.horizontal) {
             HStack(spacing: 20) {
-                SquareInfoView(imageName: "Avatar", info: "123", title: "Today's Clicks")
-                SquareInfoView(imageName: "Avatar-2", info: "Ahemdabad", title: "Top Location")
-                SquareInfoView(imageName: "Avatar-3", info: "Instagram", title: "Top Source")
-                SquareInfoView(imageName: "Avatar-4", info: "11.00 - 12.00", title: "Best Time")
+                SquareInfoView(imageName: "Avatar", info: clicks.isEmpty ? "--" : clicks, title: "Today's Clicks")
+                SquareInfoView(imageName: "Avatar-2", info: topLocation.isEmpty ? "--" : topLocation , title: "Top Location")
+                SquareInfoView(imageName: "Avatar-3", info: topSource.isEmpty ? "--" : topSource, title: "Top Source")
+                SquareInfoView(imageName: "Avatar-4", info: time.isEmpty ? "--" : time, title: "Best Time")
             }
         }
     }
 }
 
-struct ScrollableInfoCardsView_Previews: PreviewProvider {
-    static var previews: some View {
-        ScrollableInfoCardsView()
-    }
-}
+//struct ScrollableInfoCardsView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ScrollableInfoCardsView()
+//    }
+//}

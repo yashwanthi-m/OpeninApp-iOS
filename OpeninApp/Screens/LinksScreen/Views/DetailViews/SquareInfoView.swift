@@ -19,6 +19,7 @@ struct SquareInfoView: View {
                 VStack{
                     HStack{
                         Image(imageName)
+                            .padding(.bottom)
                         Spacer()
                     }
                     Spacer()

@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct OpeninAppApp: App {
+    @State private var tbHeight = CGFloat.zero
     var body: some Scene {
         WindowGroup {
             ContentView()

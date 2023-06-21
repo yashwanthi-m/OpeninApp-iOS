@@ -9,31 +9,53 @@ import SwiftUI
 import Charts
 
 struct ChartView: View {
+    
+    @ObservedObject var viewModel : ViewModel
+    @State var scrollSpot = ""
     struct Item: Identifiable {
-              var id = UUID()
-              let type: String
-              let value: Double
-          }
-    let items: [Item] = [
-                  Item(type: "1", value: 100 ),
-                  Item(type: "2", value: 80 ),
-                  Item(type: "3", value: 120 ),
-                  Item(type: "4", value: 20 ),
-                  Item(type: "5", value: 55 ),
-                  Item(type: "6", value: 170 ),
-                  Item(type: "7", value: 20 ),
-                  Item(type: "8", value: 10 ),
-                  Item(type: "9", value: 5 ),
-                  Item(type: "10", value: 1 ),
-                  Item(type: "11", value: 500 ),
-                  Item(type: "12", value: 700 )
-              ]
+        var id = UUID()
+        let type: String
+        let value: Int
+    }
+    
+    let curGradient = LinearGradient(
+        gradient: Gradient (
+            colors: [
+                Color.primaryBlue.opacity(0.4),
+                Color.primaryBlue.opacity(0.0)
+            ]
+        ),
+        startPoint: .top,
+        endPoint: .bottom
+    )
+    
+    var items: [Item] = []
+    let itemWidth: CGFloat = 50
+    init(viewModel : ViewModel)
+    {
+        self.viewModel = viewModel
+        
+        
+        
+        for (key, value) in viewModel.linkInfo.data?.overallChartData ?? [:] {
+            
+            items.append(Item(type : key, value :
+                                value))
+            items = items.sorted{
+                $0.type < $1.type
+            }
+            
+        }
+        
+        
+    }
     var body: some View {
-        ZStack{
-            RoundedRectangle(cornerRadius: 8)
-                .frame(height: UIScreen.main.bounds.height * 0.28)
-                .padding(.vertical, 20)
-                .foregroundColor(.white)
+        VStack {
+            ZStack{
+                RoundedRectangle(cornerRadius: 8)
+                    .frame(height: UIScreen.main.bounds.height * 0.29)
+                    .padding(.vertical, 20)
+                    .foregroundColor(.white)
                 HStack{
                     Text("Overview")
                         .foregroundColor(.secondaryGray)
@@ -42,7 +64,7 @@ struct ChartView: View {
                         .padding(.bottom, 200)
                     Spacer()
                     RoundedRectangle(cornerRadius: 6)
-                        .frame(width: 126, height: 25)
+                        .frame(width: 126, height: 27)
                         .foregroundColor(.clear)
                         .overlay(
                             RoundedRectangle(cornerRadius: 6)
@@ -50,7 +72,7 @@ struct ChartView: View {
                                 .padding(.horizontal, 0)
                                 .overlay{
                                     HStack{
-                                        Text("22 Aug - 23 Sept")
+                                        Text("21 May - 21 June")
                                             .padding(.leading,5)
                                             .font(.FontRegular12)
                                         Image("clock")
@@ -59,29 +81,80 @@ struct ChartView: View {
                                 }
                         )
                         .padding(.trailing, 10)
-                        .padding(.bottom, 195)
+                        .padding(.bottom, 200)
                 }
-
-            Chart(items) { item in
-                LineMark(
-                    x: .value("Month", item.type),
-                    y: .value("Revenue", item.value)
-                )
-                .foregroundStyle(Color.purple.gradient)
-                
+                ScrollViewReader { scrollPosition in
+                    ScrollView(.horizontal) {
+                        // Create a ZStack with an HStack overlaying the chart.
+                        // The HStack consists of invisible items that conform to the
+                        // identifible protocol to provide positions for programmatic
+                        // scrolling to the named location.
+                        ZStack {
+                            // Create an invisible rectangle for each x axis data point
+                            // in the chart.
+                            HStack(spacing: 0) {
+                                ForEach(items.reversed()) { item in
+                                    Rectangle()
+                                        .fill(.clear)
+                                    
+                                    // Setting maxWidth to .infinity here, combined
+                                    // with spacing:0 above, makes the rectangles
+                                    // expand to fill the frame specified for the
+                                    // chart below.
+                                        .frame(maxWidth: .infinity, maxHeight: 0)
+                                    
+                                    // Here, set the rectangle's id to match the
+                                    // charted data.
+                                        .id(item.type)
+                                }
+                            }
+                            
+                            
+                            
+                            Chart(items.reversed()) { item in
+                                AreaMark(
+                                    x: .value("Date", dateStringToMonthString(dateString:String(item.type))),
+                                    y: .value("Points", item.value)
+                                )
+                                //                                                 .interpolationMethod(.catmullRom)
+                                .foregroundStyle(curGradient)
+                                LineMark(
+                                    x: .value("Date", dateStringToMonthString(dateString:String(item.type))),
+                                    y: .value("Points", item.value)
+                                )
+                                .foregroundStyle(Color.primaryBlue)
+                                
+                                //                                .interpolationMethod(.catmullRom)
+                            }
+                            .chartYAxis {
+                                AxisMarks(position: .leading)
+                            }
+                            .frame(width: CGFloat(items.count) * itemWidth)
+                            .frame(height: UIScreen.main.bounds.height * 0.2, alignment: .bottom)
+                            .padding(.top, 22.5)
+                            .padding()
+                        }
+                    }
+                    .padding()
+                    .onChange(of: scrollSpot, perform: { y in
+                        if y != "" {
+                            scrollPosition.scrollTo(y)
+                            scrollSpot = ""
+                        }
+                    })
+                }
+                .onAppear {
+                    if let x = items.first?.type {
+                        scrollSpot = x
+                    }
+                }
             }
-            .chartYAxis {
-                AxisMarks(position: .leading)
-            }
-            .frame(height: UIScreen.main.bounds.height * 0.2, alignment: .bottom)
-            .padding(.top, 20)
-            .padding()
         }
     }
 }
 
-struct ChartView_Previews: PreviewProvider {
-    static var previews: some View {
-        ChartView()
-    }
-}
+//struct ChartView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ChartView(viewModel: <#ViewModel#>)
+//    }
+//}
